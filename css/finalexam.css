@@ -1,0 +1,55 @@
+.tasks-box{
+	width:600px;
+	height: 800px;
+	height:auto;
+	margin:40px auto;
+	overflow: hidden;
+}
+.task{
+	margin:10px;
+}
+.task input{
+	width:30px;
+	height: 30px;
+}
+.task input[type="text"]
+{
+	width:300px;
+	height: 50px;
+	border:none;
+	border-color:#ccc;
+	border-width:1px;
+	border-bottom-style:dashed;
+}
+.task input[type="checkbox"]{
+	margin-left:10px;
+}
+#cbtn,#addbtn{
+	font-size:20px;
+}
+#list{
+	font-size:40px;
+	font-family:微软雅黑;
+	overflow: hidden;
+	margin-left: 50px;
+}
+h3{
+	color:#1E90FF;
+}
+#changecontent{
+	margin-top: 10px;
+}
+#todo_img{
+	z-index: -1;
+	position: absolute;
+	top:0px;
+}
+#delet,#show,#show_c,#show_all,#top,#down,#all_choose{
+	/*display: none;*/
+	margin-left: 1rem;
+	
+}
+/*#list:hover
+#delet,#show,#show_c,#show_all,#top,#down,#all_choose{
+	display: block;
+}*/
